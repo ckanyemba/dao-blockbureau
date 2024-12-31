@@ -1,0 +1,43 @@
+{
+  "name": "blockbureau-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-waf": "^3.637.0",
+    "@payfast/core": "^0.2.3",
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cloudinary": "^1.41.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.4",
+    "express": "^4.21.2",
+    "express-metrics": "^1.1.0",
+    "express-rate-limit": "^7.4.0",
+    "express-validator": "^7.2.0",
+    "fs": "^0.0.1-security",
+    "hardhat": "^2.22.17",
+    "helmet": "^7.1.0",
+    "https": "^1.0.0",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.3.0",
+    "moment": "^2.29.4",
+    "mongoose": "^7.6.3",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.0.1",
+    "sitemap": "^7.1.1",
+    "slugify": "^1.6.6",
+    "stripe": "^14.1.0",
+    "web3": "^4.16.0"
+  }
+}
